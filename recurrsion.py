@@ -5,8 +5,8 @@
     "colab": {
       "name": "Untitled0.ipynb",
       "provenance": [],
-      "authorship_tag": "ABX9TyPyctpvXzr54Zp3OODcwDzo",
-      "include_colab_link": true
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyPyctpvXzr54Zp3OODcwDzo"
     },
     "kernelspec": {
       "name": "python3",
@@ -17,16 +17,6 @@
     }
   },
   "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/20A91A04O3/python/blob/main/recurrsion.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
     {
       "cell_type": "code",
       "metadata": {
