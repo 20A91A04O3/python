@@ -1,5 +1,5 @@
 def finding_maritalstatus(age):
-	if age>=18:
+	if age>=18 and age<=30:
 		print("You Are Eligible for Marriage")
 	if age<18:
 		print("Your are not eligible for marriage")
