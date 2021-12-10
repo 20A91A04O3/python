@@ -1,0 +1,26 @@
+n=int(input())
+data=list(map(int,input().split()))
+data.sort()
+n1=int(input())
+data1=list(map(int,input().split()))
+data1.sort()
+dic={}
+sum=0
+diff=0
+avg=0
+for i in data:
+	dic[i]=1
+for i in data1:
+	if i not in dic:
+		dic[i]=1
+	else:
+		dic[i]=0
+for k,v in dic.items():
+	if v==0:
+		sum+=k
+		diff-=k
+		avg=int(sum//k)
+		print(k,end=" ")
+print("sum of common numbers is",sum)
+print("Diff of common numbers is",diff)
+#print("average of common no is",avg)
